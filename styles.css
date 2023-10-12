@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-columns: auto-fit 1fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.left-sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: repeat(auto-fit, 50px);
+}
+
+.nav-icon {
+    height: 30px;
+    width: 30px;
+    fill:#FFF;
+}
+
+.nav-icon path{
+    fill: white;
+}
+
+.header{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
