@@ -71,6 +71,10 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 .left-sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
@@ -102,7 +106,7 @@ h1 {
     grid-template-columns: 6fr 1fr 1fr 3fr;
     gap: 10px;
     align-items: center;
-    justify-items: center;;
+    justify-items: center;
 }
 
 .search-bar {
@@ -113,6 +117,15 @@ h1 {
     border: 2px solid #365314;
     border-radius: 20px;
     padding-inline-start: 5px;
+    justify-self: stretch;
+}
+
+.top-bar h3 {
+    justify-self: left;
+}
+
+.top-bar img {
+    justify-self: right;
 }
 
 .search-input {
@@ -127,4 +140,12 @@ h1 {
 .small-profile-pic{
     height: 30px;
     width: 30px;
+}
+
+.action-center{
+    display: grid;
+    grid-template-columns: .5fr 6fr repeat(3,1fr);
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
 }
