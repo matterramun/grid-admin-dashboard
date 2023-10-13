@@ -120,3 +120,11 @@ h1 {
     background-color: #00000000;
 }
 
+.profile-pic, .small-profile-pic {
+    border-radius: 100%;
+}
+
+.small-profile-pic{
+    height: 30px;
+    width: 30px;
+}
