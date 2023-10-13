@@ -189,6 +189,7 @@ h2 {
 
 .project-item {
     border: 1px solid #365314;
+    border-left: 0.5rem solid #365314;
     border-radius: 25px;
     padding: 10px;
     display: grid;
