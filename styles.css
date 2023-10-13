@@ -210,7 +210,7 @@ h2 {
     padding-right: 20px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fill);
+    grid-template-rows: repeat(auto-fill, 350px);
     row-gap: 30px;
 }
 
@@ -229,4 +229,16 @@ h2 {
     border: 1px solid #36531459;
     border-radius: 15px;
     padding: 10px;
+}
+
+.trending {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 25px 250px;
+}
+
+.trending-container {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: repeat(auto-fill, minmax(30px, 60px));
 }
