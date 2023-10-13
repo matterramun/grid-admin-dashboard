@@ -170,3 +170,37 @@ h2 {
     color: black;
     transition: .5s;
 }
+
+.project-actions img {
+    height: 20px;
+    width: auto;
+}
+
+.your-projects-container{
+    padding:20px;
+}
+
+.projects-item-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, minmax(150px,1fr));
+    gap: 20px;
+}
+
+.project-item {
+    border: 1px solid #365314;
+    border-radius: 25px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 25px 1fr .25fr;
+    align-items: center;
+}
+
+.project-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25px);
+    grid-template-rows: 1fr;
+    direction: rtl;
+    align-items: end;
+    gap:15px;
+}
