@@ -89,12 +89,12 @@ h2 {
     column-gap: 10px;
     color:white;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .nav-icon {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
 .header {
     grid-column: 2 / 4;
@@ -104,7 +104,7 @@ h2 {
 }
 
 .top-bar {
-    padding: 10px;
+    padding: 20px 10px 10px 10px;
     grid-row: 1 / 2;
     display: grid;
     grid-template-columns: 1fr minmax(150px, 700px) 1fr 40px 40px 2fr;
