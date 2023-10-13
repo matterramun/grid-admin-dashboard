@@ -61,7 +61,7 @@ button:hover {
 body {
     font-family: 'Roboto', sans-serif;
     display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 5fr;
 }
 
@@ -182,7 +182,7 @@ h2 {
 
 .projects-item-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(250px, 30vw));
     grid-template-rows: repeat(auto-fill, minmax(150px,1fr));
     gap: 20px;
 }
