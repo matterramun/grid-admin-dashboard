@@ -50,6 +50,10 @@ table {
 
 /* End CSS Reset */
 
+input {
+    all: unset;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     display: grid;
@@ -91,10 +95,26 @@ h1 {
     grid-template-rows: 1fr 1fr;
 }
 
-.top-bar{
+.top-bar {
+    padding: 10px;
     grid-row: 1 / 2;
     display: grid;
     grid-template-columns: 6fr 1fr 1fr 3fr;
     gap: 10px;
     align-items: center;
+}
+
+.search-bar {
+    display:grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #365314;
+    border-radius: 20px;
+    padding-inline-start: 5px;
+}
+
+.search-input {
+    border: 0;
+    background-color: #00000000;
 }
