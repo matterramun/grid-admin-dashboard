@@ -54,7 +54,7 @@ input {
     all: unset;
 }
 
-*:hover {
+button:hover {
     transition: none;
 }
 
@@ -154,7 +154,7 @@ h2 {
     padding: 0 10px;
 }
 
-button {
+.action-center button {
     background-color:#365314;
     border: 2px solid white;
     color: white;
@@ -164,7 +164,7 @@ button {
     padding: 10px 15px;
 }
 
-button:hover {
+.action-center button:hover {
     background-color: white;
     border: 2px solid #365314;
     color: black;
